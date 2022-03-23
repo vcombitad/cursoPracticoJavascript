@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso práctico JS de Platzih</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.svg" alt="">
+<p> Obten el valor de tu producto con descuento, sólo tienes que escoger el valor de tu producto, el cupón de descuento y listo! </p>
+    </header>
+    <section class="section-calculator">
+        <h2>Calculadora</h2>
+        <form action="">
+            <label class="label-price" for="InputPrice"></label>
+            <input id="InputPrice" type="number" placeholder="Price">
+            
+            <label class="label-discount" for="InputCoupon"></label>
+            <input id="InputCoupon" type="text" placeholder="Escribe el nombre de tu coupon">
+            
+            <button type="button" onclick=" onClickButtonPriceDiscount()">Calcular el precio con descuento</button>
+            <div class="resultado-div">
+
+            <p id="ResultP"></p>
+            <p id="ahorroP"></p>
+            </div>
+
+        </form>
+    </section>
+    <script src="./descuento-coupon-2.js"></script>
+</body>
+</html>
